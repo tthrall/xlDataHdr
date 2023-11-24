@@ -5,7 +5,7 @@ Version: 0.1.0
 Authors@R: person("Tony", "Thrall", email = "tthrall@Alumni.Stanford.edu", role = c("aut", "cre"))
 Description: Render as a tibble each specified Excel worksheet (in which data may be separated from column headings by intervening rows).
 URL: https://github.com/tthrall/xlDataHdr
-BugReports: Tony.Thrall@gmail.com
+BugReports: https://orcid.org/0000-0001-5118-9411?lang=en
 Imports:
   assertthat, 
   here, 
@@ -20,4 +20,4 @@ RoxygenNote: 7.2.3
 NeedsCompilation: no
 USA-Classification: UNCLASSIFIED
 USA-MetaDataPortionMark: U
-Date: 2023-11-10
+Date: 2023-11-24
