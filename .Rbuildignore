@@ -1,2 +1,6 @@
 ^.*\.Rproj$
 ^\.Rproj\.user$
+^xlDataHdr\.Rproj$
+^LICENSE\.md$
+^README\.Rmd$
+^cran-comments\.md$

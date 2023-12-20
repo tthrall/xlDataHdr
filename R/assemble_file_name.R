@@ -11,6 +11,8 @@
 #' @param dt_chr <chr> date as "yyyy-mm-dd" or other format
 #' @param hr_chr <chr> time as "hhmm" or other format
 #' 
+#' @import assertthat
+#' 
 #' @return <chr> file-name
 #' 
 #' @examples

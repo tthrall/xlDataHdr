@@ -1,8 +1,9 @@
 Package: xlDataHdr
-Type: Package
 Title: Read Excel Data and Column Names
-Version: 0.1.0
-Authors@R: person("Tony", "Thrall", email = "tthrall@Alumni.Stanford.edu", role = c("aut", "cre"))
+Version: 0.0.0.9000
+Authors@R: 
+    person("Tony", "Thrall", , "Tony.Thrall@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0001-5118-9411"))
 Description: Render as a tibble each specified Excel worksheet (in which data may be separated from column headings by intervening rows).
 URL: https://github.com/tthrall/xlDataHdr
 BugReports: https://orcid.org/0000-0001-5118-9411?lang=en
@@ -11,13 +12,17 @@ Imports:
   here, 
   readxl, 
   tibble
-License: MIT
+License: MIT + file LICENSE
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
 Encoding: UTF-8
 LazyData: true
 Depends:
   R (>= 2.10)
+Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
 NeedsCompilation: no
 USA-Classification: UNCLASSIFIED
 USA-MetaDataPortionMark: U
-Date: 2023-11-24
+Date: 2023-11-26
